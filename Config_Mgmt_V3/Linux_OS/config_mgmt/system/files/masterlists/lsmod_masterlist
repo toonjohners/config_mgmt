@@ -1,0 +1,75 @@
+ac                     38729  0
+ac97_bus               35649  1 snd_ac97_codec
+acpi_memhotplug        40261  0
+ahci                   69705  4
+asus_acpi              50917  0
+ata_piix               56901  0
+autofs4                63049  3
+backlight              39873  1 video
+battery                43849  0
+bluetooth             118853  5 hidp,rfcomm,l2cap
+button                 40545  0
+cdrom                  68713  1 ide_cd
+crypto_api             42945  1 xfrm_nalgo
+dell_wmi               37601  0
+dm_log                 44993  3 dm_mirror,dm_raid45,dm_region_hash
+dm_mem_cache           38977  1 dm_raid45
+dm_message             36289  1 dm_raid45
+dm_mirror              54737  0
+dm_mod                101649  4 dm_mirror,dm_multipath,dm_raid45,dm_log
+dm_multipath           56920  0
+dm_raid45              99657  0
+dm_region_hash         46145  1 dm_raid45
+e1000                 161365  0
+ehci_hcd               66125  0
+ext3                  168913  3
+hidp                   83521  2
+hwmon                  36553  1 power_meter
+i2c_core               56641  2 i2c_ec,i2c_piix4
+i2c_ec                 38593  1 sbs
+i2c_piix4              43725  0
+ide_cd                 73825  0
+ipv6                  435361  28
+jbd                    94769  1 ext3
+l2cap                  89281  10 hidp,rfcomm
+libata                209489  2 ata_piix,ahci
+lockd                 101553  0
+loop                   48721  0
+lp                     47121  0
+Module                  Size  Used by
+mptbase               121477  2 mptsas,mptscsih
+mptsas                 83025  0
+mptscsih               69569  1 mptsas
+ohci_hcd               56309  0
+oracleasm              84136  1
+parport                73165  2 lp,parport_pc
+parport_pc             62313  0
+pcspkr                 36289  0
+power_meter            46925  0
+rfcomm                104681  0
+sbs                    49921  0
+scsi_dh                42177  1 dm_multipath
+scsi_mod              196953  7 scsi_dh,sg,mptsas,mptscsih,scsi_transport_sas,libata,sd_mod
+scsi_transport_sas     66753  1 mptsas
+sd_mod                 56513  5
+serio_raw              40517  0
+sg                     70377  0
+snd                   100073  9 snd_intel8x0,snd_ac97_codec,snd_seq_oss,snd_seq,snd_seq_device,snd_pcm_oss,snd_mixer_oss,snd_pcm,snd_timer
+snd_ac97_codec        143257  1 snd_intel8x0
+snd_intel8x0           69481  0
+snd_mixer_oss          49985  1 snd_pcm_oss
+snd_page_alloc         44113  2 snd_intel8x0,snd_pcm
+snd_pcm               116681  3 snd_intel8x0,snd_ac97_codec,snd_pcm_oss
+snd_pcm_oss            77377  0
+snd_seq                87777  5 snd_seq_dummy,snd_seq_oss,snd_seq_midi_event
+snd_seq_device         41557  3 snd_seq_dummy,snd_seq_oss,snd_seq
+snd_seq_dummy          37061  0
+snd_seq_midi_event     41025  1 snd_seq_oss
+snd_seq_oss            65473  0
+snd_timer              57161  2 snd_seq,snd_pcm
+soundcore              41825  1 snd
+sunrpc                199945  2 lockd
+uhci_hcd               57433  0
+video                  53197  0
+wmi                    41985  1 dell_wmi
+xfrm_nalgo             43333  1 ipv6

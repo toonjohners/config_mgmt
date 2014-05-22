@@ -1,0 +1,10 @@
+
+########### modprobe config ###########
+alias scsi_hostadapter ata_piix
+alias scsi_hostadapter1 ahci
+alias snd-card-0 snd-intel8x0
+options snd-card-0 index=0
+options snd-intel8x0 index=0
+remove snd-intel8x0 { /usr/sbin/alsactl store 0 >/dev/null 2>&1 || : ; }; /sbin/modprobe -r --ignore-remove snd-intel8x0
+alias eth1 e1000
+alias eth2 e1000

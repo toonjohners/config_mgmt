@@ -1,0 +1,112 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: bold; }
+
+pre { font-family: monospace; font-size: x-small; }
+
+.label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: bold; }
+
+ .bg0 { background-color:#CCCCCC; }
+ .bg1 { background-color:#BBBBBB; }
+ .bg2 { background-color:#FFFFFF; }
+ .bg3 { background-color:#DDDDDD; }
+ .glow  { background-color:#DDAA00; }
+
+.rowtable { border: thin black solid; }
+.coltable { border: thin black solid; }
+
+.tabletitle { font-family:Arial, Helvetica, verdana, sans-serif;
+	        font-size:medium;
+              font-weight: bold;
+              color: white; }
+
+.tablesubtitle { font-family:Arial, Helvetica, verdana, sans-serif;
+	           font-size:small;
+                 font-weight: bold;
+                 color: white; }
+              
+.tableheader { background-color:#496192;
+	         color:white; }
+                   
+.deltatableheader { background-color: blue;
+	              color:white;
+  		        font-weight: bold; }
+
+.sortheader { background-color: navy;
+		  font-weight: bold;
+	        color:white; }
+
+td  { font-family:Arial, Helvetica, verdana, sans-serif;
+      font-size:x-small;
+      font-weight: normal; }
+
+th  { font-family:Arial, Helvetica, verdana, sans-serif;
+      font-size:x-small;
+      font-weight: normal;
+      text-align: left; }
+
+.hs { font-family:Arial, Helvetica, verdana, sans-serif;
+      font-size:x-small; }		
+
+.pagetitle { color: #FFFFFF; }
+
+p { margin: 0px; padding: 0px; }
+
+.titlelink { color: white; }
+
+ul {
+     margin: 0px 0px 0px 5px;
+     padding: 0px 0px 0px 10px; }
+
+select { font-family:Arial, Helvetica, verdana, sans-serif;
+         font-size:xx-small; }
+
+a:visited { color: black; }
+a:hover   { color: #F00000; }
+
+a.cyan:link    {color: #ffffff; font-weight: bold; text-decoration: none;}
+a.cyan:visited {color: cyan; font-weight: bold; text-decoration: none;}
+
+a.subtitle:link    {color: red; font-weight: bold; text-decoration: none;}
+a.subtitle:visited {color: red; font-weight: bold; text-decoration: none;}
+
+a.sortheader:link    { color: cyan;}
+a.sortheader:visited { color: cyan;}
+a.sortheader:hover   { color: yellow; }
+
+.navbar a:visited { color: white; }
+.navbar a:hover   { color: cyan; }
+.navbar a:link    { color: white; }
+.navbar a:active  { color: yellow; }
+.navbar a:focus   { color: yellow; }
+
+.pageheader { font-family:Arial, Helvetica, verdana, sans-serif;
+	        font-size:large;
+              font-weight: bold;
+              color: white; }
+
+.pagelinks {
+  font-size:x-small;
+  font-family:arial; }  
+
+.pagelinks .curpage { 
+	color: #0066cc;
+	font-size: x-small;
+	background-color: #e7e7e7;
+	font-weight: bold; }
+
+.old {  font-family:Arial, Helvetica, verdana, sans-serif;
+        font-size:x-small;
+        font-weight: bold;
+        background: black;
+        color: white; }
+
+.new {  font-family:Arial, Helvetica, verdana, sans-serif;
+        font-size:x-small;
+        font-weight: bold;
+        background: white;
+        color: black; }

@@ -1,0 +1,15 @@
+aliases:    files nisplus
+automount:  files nisplus
+bootparams: nisplus [NOTFOUND=return] files
+ethers:     files
+group:      files
+hosts:      files dns
+netgroup:   nisplus
+netmasks:   files
+networks:   files
+passwd:     files
+protocols:  files
+publickey:  nisplus
+rpc:        files
+services:   files
+shadow:     files

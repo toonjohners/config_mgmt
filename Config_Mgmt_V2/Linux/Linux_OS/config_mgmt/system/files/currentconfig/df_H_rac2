@@ -1,0 +1,7 @@
+
+########### Mount Information ###########
+Filesystem Size Mounted
+/dev/sda1 32G /
+/dev/sda5 9.5G /home
+/dev/sda2 19G /u01
+tmpfs 1006M /dev/shm

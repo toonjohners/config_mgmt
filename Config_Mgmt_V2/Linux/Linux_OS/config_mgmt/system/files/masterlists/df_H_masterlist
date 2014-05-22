@@ -1,0 +1,5 @@
+/dev/sda1 32G /
+/dev/sda2 19G /u01
+/dev/sda5 9.5G /home
+Filesystem Size Mounted
+tmpfs 1006M /dev/shm

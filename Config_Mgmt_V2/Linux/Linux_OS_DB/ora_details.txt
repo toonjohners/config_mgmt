@@ -1,0 +1,7 @@
+ORA_USER=marciog
+ORA_PASS=marciog
+export ORACLE_SID=dpr1121s
+export ORACLE_HOME=/oracle/product/11.2.0/dbhome_1
+export JAVA_HOME=/usr/java/latest
+export PATH=/usr/java/latest/bin:/oracle/product/11.2.0/dbhome_1/bin
+export LD_LIBRARY_PATH=:/oracle/product/11.2.0/dbhome_1/lib

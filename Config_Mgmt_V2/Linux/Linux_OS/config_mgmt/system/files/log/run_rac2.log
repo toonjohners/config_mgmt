@@ -1,0 +1,28 @@
+#######################################
+Timestamp
+DATE: 06/04/13 TIME:15:43:25
+INSTALL.......DONE!
+#######################################
+Timestamp
+DATE: 12/04/13 TIME:16:38:31
+No Differences to OS_Version_rac2
+No Differences to uname_rac2
+No Differences to resolv.conf_rac2
+Difference found in last_boot_rac2
+No Differences to lastb_boot_rac2
+Difference found in lsmod_rac2
+No Differences to modprobe__rac2
+No Differences to modprobe.conf_rac2
+No Differences to rpm_pkgs_rac2
+Difference found in cpuinfo_rac2
+Difference found in meminfo_rac2
+No Differences to netstat_routes_rac2
+No Differences to ifconfig_rac2
+No Differences to df_H_rac2
+No Differences to fstab_rac2
+No Differences to bond_config_rac2
+No Differences to sshd_config_rac2
+No Differences to limits_conf_rac2
+No Differences to sysctl_conf_rac2
+No Differences to java_version_rac2
+No Differences to nsswitch.conf_rac2

@@ -1,0 +1,38 @@
+#!/bin/bash
+#Author: John McCormack
+#Date: 19/11/2012
+#
+#
+
+## date format ##
+NOW=`date +"%d_%b_%Y.%H.%M"`
+TIME=`date '+DATE: %d/%m/%y TIME:%H:%M:%S'`
+
+## Directories ##
+HOME="../"
+BIN=$HOME/bin
+FILES=$HOME/files
+CURRCONFIG=$FILES/currentconfig
+CHANGES=$FILES/changes
+CONFIG=$HOME/config
+REPORTS=$HOME/reports
+TMPFILES=$FILES/tmp
+HOST=`hostname`
+AUDITOS=$FILES/audit_results/OS/
+
+INST_HOME=/var/www/html/config_mgmt
+cd $INST_HOME
+cd system/bin/
+
+{
+if [ ! -f $CURRCONFIG/.installed ]; then
+    echo "You have not run the INSTALLER script yet!
+		Go back and run the install to build a Current Configuration Set."
+    exit 0
+fi
+}
+
+
+./runcheck.sh
+./audit.sh
+cd ../../

@@ -1,0 +1,17 @@
+
+########### Network Information ###########
+eth1      Link encap:Ethernet  HWaddr 08:00:27:95:46:7C  
+          inet addr:172.26.26.11  Bcast:172.26.26.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fe95:467c/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+eth2      Link encap:Ethernet  HWaddr 08:00:27:D7:25:4B  
+          inet addr:172.26.126.11  Bcast:172.26.126.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fed7:254b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+

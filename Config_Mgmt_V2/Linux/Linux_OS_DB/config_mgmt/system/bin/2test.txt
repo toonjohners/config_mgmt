@@ -1,0 +1,12 @@
+export FW_CONSOLE_PORT_ON=1
+export FUSIONWORKS_PROD=/home1/plantisz/FW_7_1_installation/prod
+export FUSIONWORKS_HOME=/home1/plantisz/FW_7_1_installation/home
+export JAVA_HOME=/usr/java/latest
+export ORACLE_HOME=/oracle/product/11.2.0/dbhome_1
+#export ORBACUS_HOME=/usr/local64
+export PATH=$JAVA_HOME/bin:$ORACLE_HOME/bin:$PATH:$FUSIONWORKS_PROD/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$FUSIONWORKS_PROD/lib:$ORACLE_HOME/lib
+	
+	
+	
+sqlplus "marciog/marciog@dpr1121s" @oracle.sql

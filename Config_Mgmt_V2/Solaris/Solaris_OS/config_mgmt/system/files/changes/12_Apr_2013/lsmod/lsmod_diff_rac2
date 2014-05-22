@@ -1,0 +1,28 @@
+< ipv6                  435361  30 
+> ipv6                  435361  28 
+> sg                     70377  0 
+< mptsas                 83025  0 
+< mptscsih               69569  1 mptsas
+> e1000                 161365  0 
+< mptbase               121477  2 mptsas,mptscsih
+< ide_cd                 73825  0 
+< parport_pc             62313  0 
+< i2c_piix4              43725  0 
+< sg                     70377  0 
+> mptsas                 83025  0 
+> mptscsih               69569  1 mptsas
+< cdrom                  68713  1 ide_cd
+< scsi_transport_sas     66753  1 mptsas
+> mptbase               121477  2 mptsas,mptscsih
+> i2c_piix4              43725  0 
+< pcspkr                 36289  0 
+< e1000                 161365  0 
+< parport                73165  2 lp,parport_pc
+> pcspkr                 36289  0 
+> scsi_transport_sas     66753  1 mptsas
+> ide_cd                 73825  0 
+> cdrom                  68713  1 ide_cd
+> parport_pc             62313  0 
+> parport                73165  2 lp,parport_pc
+< scsi_mod              196953  7 scsi_dh,mptsas,mptscsih,sg,scsi_transport_sas,libata,sd_mod
+> scsi_mod              196953  7 scsi_dh,sg,mptsas,mptscsih,scsi_transport_sas,libata,sd_mod
